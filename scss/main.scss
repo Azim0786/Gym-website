@@ -1,0 +1,47 @@
+$primary:rgb(253, 134, 23);
+$active:red;
+$text-color:white;
+$secondary:white;
+$secondary:rgb(250, 226, 202);
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar-nav .nav-link.active{
+    color: $active;
+}
+
+.navbar-nav .nav-link{
+    color: $text-color;
+}
+.navbar-nav .nav-link:hover{
+    color: $active;
+}
+
+a {
+    color: $secondary;
+    text-decoration: none;
+}
+
+.carousel-item ,img {
+    background-image: linear-gradient(to bottom, #f88383, #3df33d);
+}
+
+.custom-height {
+    height: 200px;
+}
+.card-img {
+    width: 80%;
+    height: 50%;
+    text-align: center;
+}
+.custom-edit{
+    color: white;
+}
+.text-lightwhite {
+    color: rgb(207, 206, 206);
+}
+.text-lightwhite :hover {
+    color: $active;
+}
+.hover :hover{
+     color: $active;
+}
